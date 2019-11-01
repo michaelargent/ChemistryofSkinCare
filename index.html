@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="A quiz to test your fundamental knowledge of dermatological chemistry.">
+    <title>Chemistry and Skin Care</title>
+    <meta name="viewport" content="width=device-width">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+  </head>
+  
+  <body>
+    <script src="script.js"></script>
+
+<div class = "container">
+
+<h1>The Chemistry of Skin Care</h1>
+
+<div id="starterPage" class="view">
+  Beauty and skin care routines are more scientific that you might think. Let's take a test to figure out how much you know about the chemistry behind your skin care regimen.
+  <button type="button" id="startButton">Begin Test</button>
+</div>
+
+<form id ="questionPage" class="view">
+  <div id="question">Question for and submit button</div>
+  <label></label>
+    <input id="1" type="radio" name="size" value="1" /> <label for="1">answer 1</label>
+  <label><input type="radio" name="size" value="2" /> 2</label><label><input type="radio" name="size" value="3" /> 3</label><label><input type="radio" name="size" value="4" /> 4</label>
+  <button type="submit">Submit</button>
+</form>
+
+<div id ="Confirmation Page" class="view">
+ Total Score
+ Correct
+ Incorrect
+ Number of questions left
+ <button type="button" id="nextQuestionButton">Next Question</button>
+</div>
+
+<div id ="finalPage" class="view">
+  Total Score
+  <button type="button" id="retakeButton">Retake Test</button>
+</div>
+
+
+</div>
+  </body>
+</html>
