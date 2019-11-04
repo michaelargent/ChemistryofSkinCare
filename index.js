@@ -42,7 +42,7 @@ function feedbackviewIncorrect(store) {
 function resultsView() {
     return `<div id ="resultsView" class="view">
         <p>You completed the test!</p>
-        <p>Total Score: ${store.score}</p>
+        <p>Total Score: ${store.score} / 5</p>
         <button type="button" id="retakeButton">Retake Test</button>
     </div>`;
 }
