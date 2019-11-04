@@ -19,7 +19,6 @@ function questionView(store) {
     </form></div>`;
 };
 
-
 function feedbackViewCorrect(store) {
     return `<div id ="feedbackViewCorrect" class="view">
         <p>That was correct!</p>
@@ -38,7 +37,6 @@ function feedbackviewIncorrect(store) {
     </div>`;
 };
 
-
 function resultsView() {
     return `<div id ="resultsView" class="view">
         <p>You completed the test!</p>
@@ -46,7 +44,6 @@ function resultsView() {
         <button type="button" id="retakeButton">Retake Test</button>
     </div>`;
 }
-
 
 function beginTestOnClick() {
     $('#beginTest').on('click', function (event) {
@@ -108,9 +105,6 @@ $('.view').on('submit', function (event) {
 });
 
 
-
-
-//  THE STATE OF THE UNION
 let store = {
     currentQuestion: 0,
     view: "introView",
@@ -178,9 +172,6 @@ const questions = [
     }
 ];
 
-// if(store.view === "introPage") {
-//     $("#view-outlet").html(starterView());
-// } 
 
 function render(store) {
     switch (store.view) {
@@ -214,8 +205,3 @@ function render(store) {
 $(document).ready(function () {
     render(store);
 });
-
-
-
-
-

@@ -1,7 +1,7 @@
 ul {
     list-style-type: none;
     font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px;
-  };
+  }
 
 li {
     text-align: center;
@@ -63,12 +63,3 @@ button:hover {
     color: white;
     font-family: "Lucida Sans Typewriter";
 }
-
-
-  /* body {
-    background-image:    url(https://i.ibb.co/9ygQgFn/chemistry-wallpaper-luxury-motivational-hd-wallpapers-chemistry.jpg);
-    background-size:     cover;                     
-    background-position: center center;              
-}; */
-
-
