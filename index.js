@@ -8,8 +8,8 @@ function introView() {
 function questionView(store) {
     return `<div id="questionView"
     <form id="questionPage" class="view">
+        <p>Question ${store.currentQuestion + 1} / ${questions.length}</p>    
         <div id="question">${questions[store.currentQuestion].question}</div>
-        <p>Question ${store.currentQuestion + 1} / ${questions.length}</p>
         <ul>
         <li><input id="1" type="radio" name="answerToQuestion" value="${questions[store.currentQuestion].answers[0]}" checked/> <label for="1">${questions[store.currentQuestion].answers[0]}</label></li>
         <li><input id="2" type="radio" name="answerToQuestion" value="${questions[store.currentQuestion].answers[1]}" /> <label for="2">${questions[store.currentQuestion].answers[1]}</label></li>
@@ -22,18 +22,18 @@ function questionView(store) {
 
 function feedbackViewCorrect(store) {
     return `<div id ="feedbackViewCorrect" class="view">
+        <p>Question ${store.currentQuestion + 1} / ${questions.length}</p>    
         <p>That was correct!</p>
         <p>Total Score: ${store.score}</p>
-        <p>Question ${store.currentQuestion + 1} / ${questions.length}</p>
         <button type="button" id="nextQuestionButton">${store.currentQuestion === 4 ? "Complete Test" : "Next Question"}</button>
     </div>`;
 };
 
 function feedbackviewIncorrect(store) {
     return `<div id ="feedbackViewIncorrect" class="view">
+        <p>Question ${store.currentQuestion + 1} / ${questions.length}</p>
         <p>That was incorrect, the correct answer was ${questions[store.currentQuestion].correctAnswer}</p>
         <p>Total Score: ${store.score}</p>
-        <p>Question ${store.currentQuestion + 1} / ${questions.length}</p>
         <button type="button" id="nextQuestionButton">${store.currentQuestion === 4 ? "Complete Test" : "Next Question"}</button>
     </div>`
 };

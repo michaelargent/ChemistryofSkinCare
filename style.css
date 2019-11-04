@@ -13,7 +13,7 @@ p {
 }
 
 .view {
-    font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px;
+    font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px;
 }
 
 body {
@@ -55,11 +55,11 @@ button {
     cursor: pointer;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: "Lucida Sans Typewriter"
+    font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace; 
 }
 
 button:hover {
     background-color: #FE8484;
     color: white;
-    font-family: "Lucida Sans Typewriter";
+    font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace; 
 }
