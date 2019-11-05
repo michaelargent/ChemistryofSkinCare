@@ -1,6 +1,6 @@
 function introView() {
     return `<div class="introView">
-  <p>Beauty and skin care routines are more scientific that you might think. Let's take a test to figure out how much you know about the chemistry behind your skin care regimen.</p>
+  <p>Beauty and skin care routines are more scientific than you might think. Let's take a test to figure out how much you know about the chemistry behind your skin care regimen.</p>
   <button type="button" id="beginTest">Begin Test</button>
 </div>`;
 };
