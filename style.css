@@ -37,6 +37,7 @@ body {
 h1 {
     font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace; font-size: 40x; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
     background: pink;
+    padding: 3px;
 }
 
 button {
